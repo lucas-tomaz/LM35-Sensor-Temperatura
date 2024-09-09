@@ -12,4 +12,5 @@ void loop() {
 float x=sensor.Celsius();//função para graus Celsius.
 float y=sensor.Fahrenheit();//função para graus Fahrenheit.
 float z=sensor.voltage();//função para voltagem liberada pelo sensor LM35.
+Serial.println("Temperatura:"+String(x)+","+String(y)+","+String(z));//print of data temperature
 }
